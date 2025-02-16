@@ -2,7 +2,6 @@
 /node_modules
 /public/build
 /public/hot
-/public/storage
 /storage/*.key
 /storage/pail
 /vendor
@@ -21,3 +20,22 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+# Laravel-specific
+/bootstrap/cache/*
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/views/*
+/storage/framework/sessions/*
+/storage/oauth-private.key
+/storage/oauth-public.key
+
+# Vite-related
+/resources/js/*.cache
+/resources/css/*.cache
+
+# Composer lock (optional)
+composer.lock
+
+# Docker
+/docker-compose.override.yml
